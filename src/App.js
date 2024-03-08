@@ -114,12 +114,12 @@ import "./App.css";
 
 function App() {
   const products = [
-    { id: 1, name: "Live-1", description: "Live live magazines bring events to life with vivid imagery and real-time reporting.", price: 1, image: "/ECOM-REACT/live/a.jpg" },
-    { id: 2, name: "Live-2", description: "Experience the pulse of the moment with live live magazines, capturing the essence of unfolding stories.", price: 2, image: "/ECOM-REACT/live/b.jpg" },
-    { id: 3, name: "Live-3", description: "Engage in dynamic storytelling with live live magazines, offering immersive experiences beyond the page.", price: 3, image: "/ECOM-REACT/live/c.jpg" },
-    { id: 4, name: "Live-4", description: "Stay connected to the world's happenings with live live magazines, delivering news as it unfolds.", price: 4, image: "/ECOM-REACT/live/d.jpg" },
-    { id: 5, name: "Live-5", description: "Immerse yourself in the now with live live magazines, offering a glimpse into the heartbeat of society.", price: 5, image: "/ECOM-REACT/live/e.jpg" },
-    { id: 6, name: "Live-6", description: "From concerts to conferences, live live magazines provide a front-row seat to the world's events in real-time.", price: 6, image: "/ECOM-REACT/live/f.jpg" },
+    { id: 1, name: "Live-1", description: "Live live magazines bring events to life with vivid imagery and real-time reporting.", price: 1, image: "/ecom-react/live/a.jpg" },
+    { id: 2, name: "Live-2", description: "Experience the pulse of the moment with live live magazines, capturing the essence of unfolding stories.", price: 2, image: "/ecom-react/live/b.jpg" },
+    { id: 3, name: "Live-3", description: "Engage in dynamic storytelling with live live magazines, offering immersive experiences beyond the page.", price: 3, image: "/ecom-react/live/c.jpg" },
+    { id: 4, name: "Live-4", description: "Stay connected to the world's happenings with live live magazines, delivering news as it unfolds.", price: 4, image: "/ecom-react/live/d.jpg" },
+    { id: 5, name: "Live-5", description: "Immerse yourself in the now with live live magazines, offering a glimpse into the heartbeat of society.", price: 5, image: "/ecom-react/live/e.jpg" },
+    { id: 6, name: "Live-6", description: "From concerts to conferences, live live magazines provide a front-row seat to the world's events in real-time.", price: 6, image: "/ecom-react/live/f.jpg" },
   ];
 
   const [cart, setCart] = useState([]);
