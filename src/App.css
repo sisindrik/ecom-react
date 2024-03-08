@@ -12,3 +12,42 @@ div .container {
   text-align: center;
   padding: 5px;
 }
+.quantity-control {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100px;
+}
+
+.quantity-control button {
+  flex: 0 0 40px; /* Adjust the width of the buttons */
+}
+
+
+
+/* .main {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  width: 280px;
+  padding: 1px;
+  text-align: center;
+  padding: 5px;
+}
+
+.quantity-control {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100px;
+}
+
+#mycart {
+  display: none;
+} */
